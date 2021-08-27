@@ -1,0 +1,253 @@
+body{
+    height: 100vh;
+   background:url(qm.jpg);
+   background-size: 220vh 100vh;
+   background-repeat: no-repeat;
+}
+.x{
+    color: e3b900;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 40px;
+    font-family: 'Righteous', cursive;
+
+}
+.banner{
+    padding-top: 150px;
+    padding-left: 150px;
+}
+.banner h1{
+position: relative;
+color:silver;
+font-size: 50px;
+font-family: 'Permanent Marker', cursive;
+text-shadow: 3px 3px 8px #D4AF37;
+
+}
+.banner p{
+    position:relative;
+    font-size: 35px;
+    font-style: italic;
+    color: gold;
+    padding-left: 180px;
+    top: 10px;
+    text-decoration: underline;
+}
+.t{
+    line-height: 1em;
+}
+.btn{
+    position: relative;
+    margin: auto auto 0;
+    padding-left: 165px;
+    top:10px ;
+}
+.btn a{
+    width: 100px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 20px;
+    padding: 15px 20px;
+    border: 4px solid #000000;
+    border-radius: 20px;
+    position: relative;
+    transition: color 0.5s;
+    font-size: 20px;
+    color: #000000;
+    font-style: italic;
+    font-weight: 50px;
+    background-color: white;
+    z-index:1 ;
+}
+.btn a span{
+    width:0%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:#d8a3e6;
+    transition: 0.5s;
+    z-index: -1;
+}
+.btn a:hover span{
+    width: 100%;
+}
+.btn a:hover{
+    color: black;
+}
+#sidenav{
+    background-color: debbb8;
+    background-size: 300px 100vh;
+    width: 50vh;
+    height: 100vh;
+    position: fixed;
+    border-radius: 30px;
+    right: -300px;
+    top: 0;
+    z-index: 2;
+}
+#sidenav nav ul li{
+    list-style: none;
+    margin:70px 20px;
+}
+#sidenav nav ul li a{
+    width: 70px;
+    height: 40px;
+    padding: 10px;
+    color: #0e0b26;
+    position: relative;
+    text-decoration: none;
+    border: 2px solid black;
+    transition: color 0.5s;
+    border-radius: 5px;
+}
+#sidenav nav ul li a span{
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #80b2d9;
+     z-index: -1;
+    
+}
+#sidenav nav ul li a:hover span{
+    width: 100%;
+}
+#sidenav nav ul li a:hover{
+    color: blue;
+}
+#menu{
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    top: 5px;
+    right: 20px;
+    z-index: 3;
+    cursor: pointer;
+}
+#menu img{
+    width: 30px;
+    height: 30px;
+    margin-top: 30px;
+}
+#products{
+    background: #e0ccff;
+    position: relative;
+    top: 50vh;
+    color: darkblue;
+    font-style: italic;
+    font-family: 'Permanent Marker', cursive;
+}
+img{
+    border: 10px solid black;
+}
+#products h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+.lathe{
+position: relative;
+left: 70px;
+top: 30px;
+
+}
+#products h3{
+    position: relative;
+    top: 30px;
+    left: 100px;
+    font-size: 30px;
+}
+.power{
+    position: relative;
+    top: -200px;
+    left:800px;}
+.powertext
+{
+    position: relative;
+    top: -220px;
+     left:750px;
+ }
+.chuck{
+    position: relative;
+    top: -400px;
+    left: 70px;
+}
+.chucktext{
+    position: relative;
+    top:-400px ;
+    left: 40px;
+}
+.drill{
+    position: relative;
+    left: 700px;
+    top: -450px;
+}
+.bandsaw{
+    position: relative;
+    top: -700px;
+    left: 50px;
+}
+.bantext{
+    position: relative;
+    top:-700px;
+    left: -70px;
+}
+#price{
+    top: -200px;
+    position: relative;
+    background-color: #f2d9e6;
+}
+#price h2{
+    text-align: center;
+    font-size: 40px;font-family: 'Permanent Marker', cursive;
+    color: darkblue;
+}
+.prices table{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.prices table,th,td,tr{
+    text-align: center;
+    border: 5px solid black;
+    height: 100px;
+    width: 900px;
+}
+.prices th{
+    background-color: #003366;
+    color: white;
+    font-size: 30px;
+}
+.prices td{
+    background-color: #ffb3d9;
+    font-size: 20px;
+    font-style: italic;
+    font-family: sans-serif;
+}
+.prices span {
+    background-color: red;
+}
+#Contact{
+    position: relative;
+    top: 5vh;
+background-color:#eba29d;
+border: 10px solid #cf0e55;
+}
+#Contact h2{
+    font-family: 'Lobster', cursive;
+    color: #1e082b;
+}
+.con h1{
+    text-align: center;
+    position: relative;
+    top: 10px;
+    font-size: 50px;
+    font-family: 'Permanent Marker', cursive;
+    color: darkblue;
+
+
+}
